@@ -52,7 +52,7 @@ section { display: flex;}
 .category-text > div{ font-size:16px; font-weight: 200; color: #faa541;}
 .category-text h3 { font-size: 30px; font-weight: 700; line-height: 1;}
 .full-banner{ padding: 0 15px; margin: 50px 0px; position: relative;}
-.full-banner:before{ content: ""; position: absolute; border: 1px solid #ffffff; border: 30px 30px 50px 50px; z-index: 1;}
+.full-banner:before{ content: ""; position: absolute; border: 1px solid #ffffff;top: 30px; bottom: 30px; left: 50px; right: 50px; z-index: 1;}
 .full-banner-img { display: flex; flex: 0 0 58.333333%; background-image: url('../img/vista.jpg'); background-size: cover; background-position: top center; min-height: 400px;}
 .full-banner-sidebar{ flex: 0 0 41.666667%; background-color: #364147; text-transform: uppercase; padding:30px; color:#ffffff;}
 .full-banner-sidebar:after{content: ""; width: 100px; height: 1px; background-color: #faa541; margin:20px auto; display: block;}
